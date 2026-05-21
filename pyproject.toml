@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iso-42005-impact-mcp"
+version = "1.0.0"
+description = "ISO/IEC 42005:2025 AI Impact Assessment MCP — runs full lifecycle impact assessment across 6 phases × 7 impact categories. Cross-walks to EU AI Act + ISO 42001. By MEOK AI Labs."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Nicholas Templeman", email = "nicholas@meok.ai" }]
+keywords = ["mcp", "iso-42005", "ai-impact-assessment", "iso-42001", "eu-ai-act", "compliance", "governance", "meok"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development :: Libraries",
+  "Intended Audience :: Legal Industry",
+  "Intended Audience :: Information Technology",
+]
+dependencies = ["mcp[cli]>=1.3.0"]
+
+[project.urls]
+Homepage = "https://meok.ai/governance"
+Repository = "https://github.com/CSOAI-ORG/iso-42005-impact-mcp"
+Documentation = "https://meok.ai/protocols"
+
+[project.scripts]
+iso-42005-impact-mcp = "server:main"
+
+[tool.setuptools]
+py-modules = ["server"]
