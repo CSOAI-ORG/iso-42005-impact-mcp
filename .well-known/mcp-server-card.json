@@ -1,0 +1,34 @@
+{
+  "name": "iso-42005-impact-mcp",
+  "title": "Iso 42005 Impact Mcp",
+  "description": "ISO/IEC 42005:2025 AI Impact Assessment MCP \u2014 runs full lifecycle impact assessment across 6 phases \u00d7 7 impact categories. Cross-walks to EU AI Act + ISO 42001. By MEOK AI Labs.",
+  "version": "1.0.1",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "list_phases"
+    },
+    {
+      "name": "impact_categories"
+    },
+    {
+      "name": "assess_phase"
+    },
+    {
+      "name": "run_full_impact_assessment"
+    },
+    {
+      "name": "sign_attestation"
+    },
+    {
+      "name": "cross_walk_eu_ai_act"
+    },
+    {
+      "name": "cross_walk_iso_42001"
+    }
+  ]
+}
