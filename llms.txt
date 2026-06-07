@@ -1,0 +1,34 @@
+# Iso 42005 Impact MCP
+
+> 🧱 Part of the MEOK Governance Substrate
+
+`iso-42005-impact-mcp` is a Model Context Protocol (MCP) server by MEOK AI Labs.
+
+## Install
+
+```bash
+pip install iso-42005-impact-mcp
+```
+
+Or run without installing:
+
+```bash
+uvx iso-42005-impact-mcp
+```
+
+## Tools
+
+- `list_phases` — List the 6 ISO/IEC 42005 lifecycle phases.
+- `impact_categories` — List the 7 impact categories ISO/IEC 42005 evaluates.
+- `assess_phase`
+- `run_full_impact_assessment`
+- `sign_attestation`
+- `cross_walk_eu_ai_act`
+- `cross_walk_iso_42001` — Map ISO 42005 outputs to ISO 42001 AIMS clauses.
+
+## Links
+
+- Source: https://github.com/CSOAI-ORG/iso-42005-impact-mcp
+- PyPI: https://pypi.org/project/iso-42005-impact-mcp/
+- MEOK AI Labs: https://meok.ai
+- Council of AI: https://councilof.ai
