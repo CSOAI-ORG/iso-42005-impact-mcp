@@ -1,3 +1,5 @@
+[![MCP Scorecard: 90/100](https://img.shields.io/badge/proofof.ai-90%2F100-5b21b6)](https://proofof.ai/scorecard/iso-42005-impact-mcp.html)
+
 # Iso 42005 Impact MCP
 mcp-name: io.github.CSOAI-ORG/iso-42005-impact-mcp
 
