@@ -1,0 +1,25 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "iso-42005-impact-mcp",
+    "description": "ISO/IEC 42005:2025 AI Impact Assessment MCP \u2014 first international standard for AI impact",
+    "version": "1.0.1",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "iso-42005-impact-mcp"
+      }
+    ],
+    "capabilities": [
+      "list_phases",
+      "impact_categories",
+      "assess_phase",
+      "run_full_impact_assessment",
+      "sign_attestation",
+      "cross_walk_eu_ai_act",
+      "cross_walk_iso_42001"
+    ]
+  }
+}
