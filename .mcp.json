@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "iso-42005-impact-mcp": {
+      "command": "uvx",
+      "args": [
+        "iso-42005-impact-mcp"
+      ]
+    }
+  }
+}
