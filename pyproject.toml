@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "iso-42005-impact-mcp"
-version = "1.0.3"
+version = "1.0.4"
 description = "ISO/IEC 42005:2025 AI Impact Assessment MCP — runs full lifecycle impact assessment across 6 phases × 7 impact categories. Cross-walks to EU AI Act + ISO 42001. By MEOK AI Labs."
 readme = "README.md"
 license = { text = "MIT" }
