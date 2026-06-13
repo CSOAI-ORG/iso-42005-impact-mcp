@@ -1,0 +1,151 @@
+{
+  "name": "Iso 42005 Impact Mcp",
+  "version": "1.0.1",
+  "url": "https://mcp.meok.ai/iso-42005-impact-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "ISO/IEC 42005:2025 AI Impact Assessment MCP — runs full lifecycle impact assessment across 6 phases × 7 impact categories. Cross-walks to EU AI Act + ISO 42001. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "list_phases",
+      "name": "List Phases",
+      "description": "List Phases — a tool of the iso-42005-impact-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "impact_categories",
+      "name": "Impact Categories",
+      "description": "Impact Categories — a tool of the iso-42005-impact-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "assess_phase",
+      "name": "Assess Phase",
+      "description": "Assess Phase — a tool of the iso-42005-impact-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "run_full_impact_assessment",
+      "name": "Run Full Impact Assessment",
+      "description": "Run Full Impact Assessment — a tool of the iso-42005-impact-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "sign_attestation",
+      "name": "Sign Attestation",
+      "description": "Sign Attestation — a tool of the iso-42005-impact-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "cross_walk_eu_ai_act",
+      "name": "Cross Walk Eu Ai Act",
+      "description": "Cross Walk Eu Ai Act — a tool of the iso-42005-impact-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "cross_walk_iso_42001",
+      "name": "Cross Walk Iso 42001",
+      "description": "Cross Walk Iso 42001 — a tool of the iso-42005-impact-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "iso-42005-impact-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
